@@ -7,15 +7,10 @@ If you have any problem with the code and data format, please contact the author
 
 ## Codes
 
-<<<<<<< HEAD
 In the `./SSFGM-py` folder, we present our python implementation of the Two-Chain Sampling (TCS) algorithm, based on Tensorflow framework. (newest version)
 
 In the `./SSFGM-cpp` folder, we present our c++ implementation of the Loopy Belief Propagation (LBP), SampleRank, and TCS with Metropolis-Hastings sampling algorithm. 
-=======
-In the `./PYTHON` folder, we present our python implementation of the Two-Chain Sampling (TCS) algorithm, based on Tensorflow framework. (newest version)
 
-In the `./CPP` folder, we present our c++ implementation of the Loopy Belief Propagation (LBP), SampleRank, and TCS with Metropolis-Hastings sampling algorithm. 
->>>>>>> eb83b31dae940aca4d482e75d10c309a3de4608b
 
 In the `./misc` folder, there are some other scripts for baseline methods or evaluations.
 
