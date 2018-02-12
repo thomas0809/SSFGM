@@ -145,6 +145,7 @@ def main(rank1):
     #                 intra_op_parallelism_threads = 4,
     #                 log_device_placement=False)
 
+
     if FLAGS.dataset == 'reddit':
         adj, features, y_train, y_val, y_test, train_index, val_index, test_index = loadRedditFromNPZ("data/")
         adj = adj+adj.T
@@ -263,7 +264,8 @@ def main(rank1):
                     output_prob[excerpt] = p1
         if final:
             f = open(FLAGS.output, 'w')
-            f.write(' '.join(label_names) + '\n')
+            if 'label_names' in locals():
+                f.write(' '.join(label_names) + '\n')
             for i in range(numNode):
                 for j in range(NUM_CLASS):
                     f.write('%.8f '%output_prob[i,j])
