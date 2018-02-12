@@ -2,7 +2,8 @@
 *.json
 log*
 *.out
-data/*
+data/*.txt
+data/*.pkl
 tmp/
 *.pyc
 .DS_Store
