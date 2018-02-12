@@ -1,0 +1,10 @@
+*.txt
+*.json
+log*
+*.out
+data/*
+tmp/
+*.pyc
+.DS_Store
+reddit/
+convert.py

@@ -1,0 +1,7 @@
+*/SSFGM
+*/*.txt
+*/convert.py
+*.DS_Store
+*/*.model
+*/log*
+*/*.out
