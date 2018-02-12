@@ -22,9 +22,9 @@ For running, the command is
 
 ```
 python gcncrf_transductive.py [options]
-    --model  [crf/gcn]           (crf stands for SSFGM with TCS)
+    --model  crf/gcn           (crf stands for SSFGM with TCS)
     --learning_rate  {value}
-    --dataset  [twitter_usa/twitter_world/weibo]
+    --dataset  twitter_usa/twitter_world/weibo
     --output  {filename}
     --deep                     (enable the deep factor in crf)
 ```
