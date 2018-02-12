@@ -5,6 +5,7 @@ Code for SSFGM with the TCS algorithm. Based on the implementation of https://gi
 ## Requirement
 
 Python 3.6
+
 Tensorflow 1.4
 
 ## Data
