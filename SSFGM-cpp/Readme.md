@@ -51,7 +51,7 @@ The second part is edge. Each line represent an edge (correlation between two in
 ```
 #edge line_a line_b edgetype
 ```
-where `line_a`, `line_b` correspond to two nodes in the first part, and lines are counted starting with 1. `edgetype` is a string indicating the type of this edge. Currently the code only support one type.
+where `line_a`, `line_b` correspond to two nodes in the first part, and lines are counted starting with 0. `edgetype` is a string indicating the type of this edge. Currently the code only support one type.
 
 ## Datasets
 
