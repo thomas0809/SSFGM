@@ -53,8 +53,3 @@ The second part is edge. Each line represent an edge (correlation between two in
 ```
 where `line_a`, `line_b` correspond to two nodes in the first part, and lines are counted starting with 0. `edgetype` is a string indicating the type of this edge. Currently the code only support one type.
 
-## Datasets
-
-Weibo: https://aminer.org/influencelocality
-
-Facebook: http://snap.stanford.edu/data/egonets-Facebook.html
